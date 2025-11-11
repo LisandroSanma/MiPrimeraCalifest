@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <title>🎂Los invito a la Califest 💚</title>
+
+  <!-- Miniatura -->
+  <link rel="icon" type="image/jpeg" href="Miniatura.jpg">
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="🎂Los invito a la Califest 💚">
+  <meta property="og:description" content="¡Te espero para festejar mi primer añito! Música, flores y diversión 🌸💚">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://lisandrosanma.github.io/PrimeraCaliFest/">
+  <meta property="og:image" content="https://lisandrosanma.github.io/PrimeraCaliFest/Miniatura.jpg">
+  <meta property="og:image:width" content="800">
+  <meta property="og:image:height" content="800">
+
+  <!-- Twitter -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="🎂Los invito a la Califest 💚">
+  <meta name="twitter:description" content="¡Te espero para festejar mi primer añito! Música, flores y diversión 🌸💚">
+  <meta name="twitter:image" content="https://lisandrosanma.github.io/PrimeraCaliFest/Miniatura.jpg">
+
+  <style>
+    body {
+      font-family: 'Comic Sans MS', sans-serif;
+      background: linear-gradient(180deg, #c8f5df, #f4fffa);
+      color: #2d7a5b;
+      margin: 0;
+      text-align: center;
+      padding: 10px;
+      overflow-x: hidden;
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-start;
+      align-items: center;
+      position: relative;
+      min-height: 100vh;
+    }
+
+    .content {
+      position: relative;
+      z-index: 3;
+      width: 100%;
+      max-width: 400px;
+    }
+
+    h1 {
+      font-size: 1.8em;
+      margin-top: 10px;
+      animation: fadeInDown 1.2s ease;
+    }
+
+    @keyframes fadeInDown {
+      from { opacity: 0; transform: translateY(-20px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+
+    p {
+      font-size: 1em;
+      margin: 8px 0;
+      animation: fadeIn 2s ease-in;
+    }
+
+    @keyframes fadeIn {
+      from { opacity: 0; }
+      to { opacity: 1; }
+    }
+
+    #foto-bebe {
+      width: 90%;
+      max-width: 280px;
+      border-radius: 50%;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+      margin: 15px 0;
+      cursor: pointer;
+      z-index: 3;
+      transition: transform 0.3s ease;
+    }
+
+    .buttons {
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+      margin-top: 20px;
+      align-items: center;
+      z-index: 3;
+    }
+
+    .buttons button {
+      background: linear-gradient(90deg, #6cc8a2, #57b48c);
+      border: none;
+      color: #fff;
+      font-size: 1em;
+      padding: 10px 15px;
+      border-radius: 15px;
+      cursor: pointer;
+      transition: transform 0.3s ease;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.15);
+      width: 80%;
+    }
+
+    .buttons button:hover {
+      transform: scale(1.05);
+    }
+
+    @keyframes dance {
+      0% { transform: scale(1) rotate(0deg); }
+      20% { transform: scale(1.1) rotate(20deg); }
+      40% { transform: scale(0.95) rotate(-15deg); }
+      60% { transform: scale(1.05) rotate(15deg); }
+      80% { transform: scale(1.1) rotate(-10deg); }
+      100% { transform: scale(1) rotate(360deg); }
+    }
+
+    .dance {
+      animation: dance 1s ease infinite;
+    }
+
+    @keyframes sway {
+      0% { transform: translateY(0px) rotate(0deg); }
+      25% { transform: translateY(-4px) rotate(5deg); }
+      50% { transform: translateY(0px) rotate(0deg); }
+      75% { transform: translateY(4px) rotate(-5deg); }
+      100% { transform: translateY(0px) rotate(0deg); }
+    }
+
+    .sway {
+      animation: sway 0.8s ease-in-out infinite;
+    }
+
+    .flower {
+      position: absolute;
+      width: 50px;
+      opacity: 0.7;
+      z-index: 1;
+    }
+
+    /* Reubicación para móviles */
+    .flower:nth-child(1) { left: 5%; top: 5%; }
+    .flower:nth-child(2) { left: 25%; top: 5%; }
+    .flower:nth-child(3) { left: 50%; top: 0%; }
+    .flower:nth-child(4) { left: 75%; top: 5%; }
+    .flower:nth-child(5) { left: 90%; top: 5%; }
+    .flower:nth-child(6) { left: 10%; top: 25%; }
+    .flower:nth-child(7) { left: 35%; top: 25%; }
+    .flower:nth-child(8) { left: 60%; top: 20%; }
+    .flower:nth-child(9) { left: 80%; top: 25%; }
+    .flower:nth-child(10){ left: 50%; top: 30%; }
+  </style>
+</head>
+<body>
+
+  <!-- Flores de fondo -->
+  <img class="flower" src="flores/Flor1.png" alt="Flor">
+  <img class="flower" src="flores/Flor2.png" alt="Flor">
+  <img class="flower" src="flores/Flor3.png" alt="Flor">
+  <img class="flower" src="flores/Flor4.png" alt="Flor">
+  <img class="flower" src="flores/Flor5.png" alt="Flor">
+  <img class="flower" src="flores/Flor1.png" alt="Flor">
+  <img class="flower" src="flores/Flor2.png" alt="Flor">
+  <img class="flower" src="flores/Flor3.png" alt="Flor">
+  <img class="flower" src="flores/Flor4.png" alt="Flor">
+  <img class="flower" src="flores/Flor5.png" alt="Flor">
+
+  <div class="content">
+    <h1>🎂Los invito a la Califest 💚</h1>
+    <p>¡Te espero para festejar mi primer añito!</p>
+
+    <img id="foto-bebe" src="foto_bebe.jpg" alt="Calíope">
+    <p>Soy la bebé más guarachera, si no me creés...<br>¡tocá mi foto! 💃</p>
+
+    <div class="buttons">
+      <button onclick="window.open('https://maps.google.com/?q=-34.8557038,-58.3888914','_blank')">📍 Cómo llegar</button>
+      <button onclick="window.open('https://calendar.google.com/calendar/render?action=TEMPLATE&text=Cumple+de+Calíope&dates=20251206T160000Z/20251206T190000Z&details=Primer+añito+en+Tano+Eventos&location=Tano+Eventos','_blank')">📅 Guardar fecha</button>
+      <button id="confirmar-btn" onclick="window.open('https://wa.me/5491156637770?text=Confirmo%20asistencia%20al%20cumple%20de%20Cal%C3%ADope','_blank')">💬 Confirmar asistencia</button>
+    </div>
+  </div>
+
+  <audio id="bg-music" loop>
+    <source src="musica.mp3" type="audio/mpeg">
+  </audio>
+
+  <script>
+    const foto = document.getElementById('foto-bebe');
+    const audio = document.getElementById('bg-music');
+    const confirmar = document.getElementById('confirmar-btn');
+    const flowers = document.querySelectorAll('.flower');
+
+    // Reproducir música y animaciones al tocar la foto
+    foto.addEventListener('click', () => {
+      audio.play();
+      foto.classList.add('dance');
+      flowers.forEach(f => f.classList.add('sway'));
+    });
+
+    audio.addEventListener('pause', () => {
+      foto.classList.remove('dance');
+      flowers.forEach(f => f.classList.remove('sway'));
+    });
+
+    // Mensaje al confirmar asistencia
+    confirmar.addEventListener('click', () => {
+      setTimeout(() => alert('💚 ¡Nos vemos en la Califest! 🎂'), 3000);
+    });
+
+    // Touch en móvil
+    foto.addEventListener('touchstart', () => {
+      foto.classList.add('dance');
+      flowers.forEach(f => f.classList.add('sway'));
+    });
+    foto.addEventListener('touchend', () => {
+      if (audio.paused) {
+        foto.classList.remove('dance');
+        flowers.forEach(f => f.classList.remove('sway'));
+      }
+    });
+  </script>
+</body>
+</html>
+
+
+
+
